@@ -1,8 +1,36 @@
+/*Seletor por Tipo*/
 h1{
+  background: darkblue;
+  color: lightgreen;
+}
+
+div{
+  background: lightblue;
+  color: darkblue;
+}
+
+li{
+  background: lightgreen;
+}
+
+/* Seletor por ID*/
+#texto-boas-vindas {
   background: red;
   color: white;
 }
 
-h2{
+/*Seletor por Classe*/
+.seletores-comuns{
   color: red;
+
+}
+
+/*Seletor Universal*/
+* {
+font-size: 30px;
+}
+
+/*Seletor de Atributo*/
+[title] { 
+  color: green;
 }
