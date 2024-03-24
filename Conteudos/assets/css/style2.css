@@ -1,0 +1,9 @@
+/* combinadores de tipos*/
+h1, p, div{
+    color:red;
+    background:lightblue;
+}
+/* combinadores de ID */
+#doc, #suporte {
+ color: blue;
+}
